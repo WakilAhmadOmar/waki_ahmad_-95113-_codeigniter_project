@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Regular';
+    src: local('Regular'), url(../../fonts/IRANSansRegular.ttf) format('truetype');
+    font-family: 'MediumRegular';
+    src:local('MediumRegular'), url(../../fonts/IRANSansMediumRegular.ttf) format('truetype');
+  }
+  body{
+      font-family:Regular;
+  }
+
+.change_longuage{
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    z-index: 100000;
+    background-color: #EEEEEE;
+    padding-right: 20px;
+
+}
+li:hover .change_longuage{
+    display: inline;
+}
+.nav-tabs{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+ul li a{
+    /* background-color: red; */
+    font-family: MediumRegular;
+    font-size: 15px;
+}

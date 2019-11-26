@@ -1,0 +1,1 @@
+<h4><?php echo $this->lang->line('about')?></h4>

@@ -1,0 +1,27 @@
+.totalMassege{
+    font-size: 20px;
+    /* margin-left: 10px; */
+    width: 100%;
+    padding:10px
+}
+.Action{
+    width: 30%;
+}
+/* tr:nth-child(odd){
+    background-color: darkmagenta;
+} */
+.delete{
+    color: #ee3355;
+}
+.header_table{
+    background-color: #ccc;
+}
+.td_body_message{
+    width: 60%;
+}
+td{
+   padding: 10px;
+}
+.title_message{
+    width:20%
+}
